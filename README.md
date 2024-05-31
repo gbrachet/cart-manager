@@ -1,8 +1,8 @@
-# transaction-manager
+# cart-manager
 
 ## Description
 
-Purpose of this project is to create the backend application which manage transaction.
+Purpose of this project is to create the backend application which manage cart.
 
 ![Schema](img/schema.png)
 
@@ -32,16 +32,16 @@ A category has a **uniq** `name` and a `description`. It is used to regroup prod
  - Vegetable
  - Beverage
 
-### Transaction
+### 
 
-A transaction is a set of product with, for each, the `quantity`. Based on this, the transaction has a computed `amount`.
-A transaction has as well a `status` ("PENDING", "APPROVED", "REJECTED") and a `creation date` automatically settled by the application.
+A cart is a set of product with, for each, the `quantity`. Based on this, the cart has a computed `amount`.
+A cart has as well a `status` ("PENDING", "APPROVED", "REJECTED") and a `creation date` automatically settled by the application.
 
 ---
 
 ## API 
 
- - Provide CRUD features for Category, Product and Transaction.
+ - Provide CRUD features for Category, Product and Cart.
 
 ## Advanced features
 
