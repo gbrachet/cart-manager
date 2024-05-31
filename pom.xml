@@ -11,10 +11,10 @@
 	</parent>
 
 	<groupId>com.lombardinternational</groupId>
-	<artifactId>transaction-manager</artifactId>
+	<artifactId>cart-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>transaction-manager</name>
-	<description>Transaction manager exercice</description>
+	<name>cart-manager</name>
+	<description>Cart manager exercice</description>
 
 	<properties>
 		<java.version>17</java.version>

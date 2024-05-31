@@ -1,5 +1,5 @@
 spring:
-  application.name: transaction-manager
+  application.name: cart-manager
 
   datasource:
     url: jdbc:h2:mem:mydb

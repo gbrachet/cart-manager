@@ -1,13 +1,13 @@
-package com.lombardinternational.transactionmanager;
+package com.lombardinternational.cartmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TransactionManagerApplication {
+public class CartManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TransactionManagerApplication.class, args);
+		SpringApplication.run(CartManagerApplication.class, args);
 	}
 
 }
